@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ks_mod_more_ach",
+    "name": "Больше достижений",
+    "authors": [ "Kenshut" ],
+    "description": "больше достижений для большей стимуляции",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "path": ""
+  }
+]
