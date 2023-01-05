@@ -212,7 +212,7 @@
   {
     "id": "achievement_kill_zombie900000",
     "type": "achievement",
-    "name": "ВЫ ВСЕ ЕЩЕ НЕ ПОТЕРЯЛИ РЕШИМОСТЬ, ВЫ ЧЮДЕСНОЕ СУЩЕСТВО!",
+    "name": "ВЫ ВСЕ ЕЩЕ НЕ ПОТЕРЯЛИ РЕШИМОСТЬ, ВЫ ИЗУМИТЕЛЬНЫ!",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 900000} ],
 	"hidden_by": [ "achievement_kill_zombie800000" ]
   },
