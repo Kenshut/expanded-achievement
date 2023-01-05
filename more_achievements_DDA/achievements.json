@@ -778,12 +778,19 @@
     "hidden_by": [ "achievement_bury_1000_corpses" ]
   },
   {
+    "id": "achievement_install_2_cbm",
+    "type": "achievement",
+    "name": "Я ведь стал лучше?",
+    "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ],
+	"hidden_by": [ "achievement_install_1_cbm" ]
+  },
+  {
     "id": "achievement_install_5_cbm",
     "type": "achievement",
     "name": "Почти киборг",
     "description": "Ты почти совершенен, почти...",
     "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ],
-	"hidden_by": [ "achievement_install_1_cbm" ]
+	"hidden_by": [ "achievement_install_2_cbm" ]
   },
   {
     "id": "achievement_install_10_cbms",
@@ -792,5 +799,130 @@
     "description": "By most mechanical and dirty hand.  I shall have such revenges on you… both.  The things I will do, what they are, yet I know not.  But they will be the terrors of the earth.",
     "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 10 } ],
     "hidden_by": [ "achievement_install_5_cbm" ]
+  },
+  {
+    "id": "achievement_read_1_book",
+    "type": "achievement",
+    "name": "Ваша первая книга",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 1 } ]
+  },
+  {
+    "id": "achievement_read_5_book",
+    "type": "achievement",
+    "name": "Любитель почитать",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 5 } ],
+	"hidden_by": [ "achievement_read_1_book" ]
+  },
+  {
+    "id": "achievement_read_10_book",
+    "type": "achievement",
+    "name": "Домашняя библиотека ",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 10 } ],
+	"hidden_by": [ "achievement_read_5_book" ]
+  },
+  {
+    "id": "achievement_read_15_book",
+    "type": "achievement",
+    "name": "Книжный червь",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 15 } ],
+	"hidden_by": [ "achievement_read_10_book" ]
+  },
+  {
+    "id": "achievement_read_20_book",
+    "type": "achievement",
+    "name": "Любитель почитать",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 20 } ],
+	"hidden_by": [ "achievement_read_15_book" ]
+  },
+  {
+    "id": "achievement_read_25_book",
+    "type": "achievement",
+    "name": "Тот кто очень сильно любит читать",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 25 } ],
+	"hidden_by": [ "achievement_read_20_book" ]
+  },
+  {
+    "id": "achievement_read_30_book",
+    "type": "achievement",
+    "name": "Прочитав книгу, ты найдешь новые пути",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 30 } ],
+	"hidden_by": [ "achievement_read_20_book" ]
+  },
+   {
+    "id": "achievement_read_40_book",
+    "type": "achievement",
+    "name": "Страницы говорят с вами",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 40 } ],
+	"hidden_by": [ "achievement_read_30_book" ]
+  },
+  {
+    "id": "achievement_read_80_book",
+    "type": "achievement",
+    "name": "Страницы говорят с вами",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 80 } ],
+	"hidden_by": [ "achievement_read_40_book" ]
+  },
+  {
+    "id": "achievement_read_100_book",
+    "type": "achievement",
+    "name": "Страницы говорят с вами, вы почти понимаете их",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 100 } ],
+	"hidden_by": [ "achievement_read_80_book" ]
+  },
+  {
+    "id": "achievement_read_200_book",
+    "type": "achievement",
+    "name": "Тот кто понимает страницы",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 200 } ],
+	"hidden_by": [ "achievement_read_100_book" ]
+  },
+  {
+    "id": "achievement_read_400_book",
+    "type": "achievement",
+    "name": "Заядлый читатель",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 400 } ],
+	"hidden_by": [ "achievement_read_200_book" ]
+  },
+  {
+    "id": "achievement_read_800_book",
+    "type": "achievement",
+    "name": "Книжный пожиратель",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 800 } ],
+	"hidden_by": [ "achievement_read_400_book" ]
+  },
+  {
+    "id": "achievement_read_1000_book",
+    "type": "achievement",
+    "name": "КИЛЛОЧИТАТЕЛЬ",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 1000 } ],
+	"hidden_by": [ "achievement_read_800_book" ]
+  },
+  {
+    "id": "achievement_read_2000_book",
+    "type": "achievement",
+    "name": "Вы уже наверно знаете весь сюжет",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 2000 } ],
+	"hidden_by": [ "achievement_read_1000_book" ]
+  },
+  {
+    "id": "achievement_read_4000_book",
+    "type": "achievement",
+    "name": "Сюжеты уже предсказуемы?",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 4000 } ],
+	"hidden_by": [ "achievement_read_2000_book" ]
+  },
+  {
+    "id": "achievement_read_8000_book",
+    "type": "achievement",
+    "name": "Вы уже читаете тоже самое?",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 8000 } ],
+	"hidden_by": [ "achievement_read_4000_book" ]
+  },
+  {
+    "id": "achievement_read_10000_book",
+    "type": "achievement",
+    "name": "Так много букв",
+    "requirements": [ { "event_statistic": "num_reads_book", "is": ">=", "target": 10000 } ],
+	"hidden_by": [ "achievement_read_8000_book" ]
   }
 ]
