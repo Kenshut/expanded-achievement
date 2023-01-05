@@ -2,91 +2,91 @@
   {
     "id": "achievement_kill_zombie10",
     "type": "achievement",
-    "name": "Десятка есть, осталось 7 миллиардов",
+    "name": "10 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 10} ],
 	"hidden_by": [ "achievement_kill_zombie" ]
   },
   {
     "id": "achievement_kill_zombie20",
     "type": "achievement",
-    "name": "Две десятки есть, осталось 7 миллиардов",
+    "name": "20 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 20} ],
 	"hidden_by": [ "achievement_kill_zombie10" ]
   },
   {
     "id": "achievement_kill_zombie30",
     "type": "achievement",
-    "name": "Три десятки есть, осталось 7 миллиардов",
+    "name": "30 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 30} ],
 	"hidden_by": [ "achievement_kill_zombie20" ]
   },
   {
     "id": "achievement_kill_zombie40",
     "type": "achievement",
-    "name": "Четыре десятки есть, осталось 7 миллиардов",
+    "name": "40 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 40} ],
 	"hidden_by": [ "achievement_kill_zombie30" ]
   },
   {
     "id": "achievement_kill_zombie50",
     "type": "achievement",
-    "name": "Пять десяток есть, осталось 7 миллиардов",
+    "name": "50 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 50} ],
 	"hidden_by": [ "achievement_kill_zombie40" ]
   },
   {
     "id": "achievement_kill_zombie60",
     "type": "achievement",
-    "name": "Шесть десяток есть, осталось 7 миллиардов",
+    "name": "60 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 60} ],
 	"hidden_by": [ "achievement_kill_zombie50" ]
   },
   {
     "id": "achievement_kill_zombie70",
     "type": "achievement",
-    "name": "Семь десяток есть, осталось 7 миллиардов",
+    "name": "70 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 70} ],
 	"hidden_by": [ "achievement_kill_zombie60" ]
   },
   {
     "id": "achievement_kill_zombie80",
     "type": "achievement",
-    "name": "Восемь десяток есть, осталось 7 миллиардов",
+    "name": "80 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 80} ],
 	"hidden_by": [ "achievement_kill_zombie70" ]
   },
   {
     "id": "achievement_kill_zombie90",
     "type": "achievement",
-    "name": "Девять десяток есть, осталось 7 миллиардов",
+    "name": "90 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 90} ],
 	"hidden_by": [ "achievement_kill_zombie80" ]
   },
   {
     "id": "achievement_kill_zombie100",
     "type": "achievement",
-    "name": "Сотня есть, осталось 7 миллиардов",
+    "name": "100 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 100} ],
 	"hidden_by": [ "achievement_kill_zombie90" ]
   },
   {
     "id": "achievement_kill_zombie200",
     "type": "achievement",
-    "name": "две сотни есть, осталось 7 миллиардов",
+    "name": "200 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 200} ],
 	"hidden_by": [ "achievement_kill_zombie100" ]
   },
   {
     "id": "achievement_kill_zombie300",
     "type": "achievement",
-    "name": "три сотни есть, осталось 7 миллиардов",
+    "name": "300 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 300} ],
 	"hidden_by": [ "achievement_kill_zombie200" ]
   },
   {
     "id": "achievement_kill_zombie400",
     "type": "achievement",
-    "name": "четыри сотни есть, осталось 7 миллиардов",
+    "name": "400 есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 400} ],
 	"hidden_by": [ "achievement_kill_zombie300" ]
   },
@@ -352,7 +352,7 @@
   {
     "id": "achievement_kill_zombie45000",
     "type": "achievement",
-    "name": "вы же не намерены сдаваться?",
+    "name": "Вы же не намерены сдаваться?",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 45000} ],
 	"hidden_by": [ "achievement_kill_zombie40000" ]
   },
@@ -464,14 +464,7 @@
   {
     "id": "achievement_kill_zombie800000",
     "type": "achievement",
-    "name": "Вы просто УДИВИТЕЛЬНЫ!",
-    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 800000} ],
-	"hidden_by": [ "achievement_kill_zombie700000" ]
-  },
-  {
-    "id": "achievement_kill_zombie800000",
-    "type": "achievement",
-    "name": "ВЫ ВСЕ ЕЩЕ НЕ ПОТЕРЯЛИ РЕШИМОСТЬ, ВЫ ЧЮДЕСНОЕ СУЩЕСТВО!",
+    "name": "Вы просто ЗАМЕЧАТЕЛЬНЫЙ!",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 800000} ],
 	"hidden_by": [ "achievement_kill_zombie700000" ]
   },
@@ -498,35 +491,35 @@
      {
     "id": "achievement_num_10_headshots",
     "type": "achievement",
-    "name": "десятикратный ХЭДШОТ!",
+    "name": "Десятикратный ХЭДШОТ!",
 	"hidden_by": [ "achievement_num_headshots" ],
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 10} ]
   },
        {
     "id": "achievement_num_100_headshots",
     "type": "achievement",
-    "name": "арбузные головы",
+    "name": "Арбузные головы",
 	"hidden_by": [ "achievement_num_10_headshots" ],
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 100} ]
   },
        {
     "id": "achievement_num_200_headshots",
     "type": "achievement",
-    "name": "сколько же пуль ты на это потратил?",
+    "name": "Сколько же пуль ты на это потратил?",
 	"hidden_by": [ "achievement_num_100_headshots" ],
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 200} ]
   },
        {
     "id": "achievement_num_400_headshots",
     "type": "achievement",
-    "name": "да же если не спервого раза",
+    "name": "Да же если не спервого раза",
 	"hidden_by": [ "achievement_num_200_headshots" ],
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 400} ]
   },
        {
     "id": "achievement_num_800_headshots",
     "type": "achievement",
-    "name": "давольно точный...",
+    "name": "Давольно точный...",
 	"hidden_by": [ "achievement_num_400_headshots" ],
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 800} ]
   },
@@ -589,7 +582,7 @@
     {
     "id": "achievement_character_npc",
     "type": "achievement",
-    "name": "смертоубийство",
+    "name": "Смертоубийство",
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 1,  "visible": "when_achievement_completed" } ]
   },
   {
@@ -637,28 +630,28 @@
     {
     "id": "achievement_character_400_npc",
     "type": "achievement",
-    "name": "перевозчик",
+    "name": "Перевозчик",
 	"hidden_by": [ "achievement_character_200_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 400} ]
   }, 
     {
     "id": "achievement_character_800_npc",
     "type": "achievement",
-    "name": "если бы не катаклизм, то вы бы попали в ад",
+    "name": "Если бы не катаклизм, то вы бы попали в ад",
 	"hidden_by": [ "achievement_character_400_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 800} ]
   }, 
     {
     "id": "achievement_character_1000_npc",
     "type": "achievement",
-    "name": "ненавистник людей",
+    "name": "Ненавистник людей",
 	"hidden_by": [ "achievement_character_800_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 1000} ]
   }, 
     {
     "id": "achievement_character_5000_npc",
     "type": "achievement",
-    "name": "они все были выдуманными",
+    "name": "Они все были выдуманными",
 	"hidden_by": [ "achievement_character_1000_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 5000} ]
   },   
@@ -672,83 +665,83 @@
   {
     "id": "achievement_damage_100_taken",
     "type": "achievement",
-    "name": "живучийI",
+    "name": "ЖивучийI",
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 100} ]
   },
     {
     "id": "achievement_damage_200_taken",
     "type": "achievement",
-    "name": "живучийII",
+    "name": "ЖивучийII",
 	"hidden_by": [ "achievement_damage_100_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 200} ]
   },
     {
     "id": "achievement_damage_400_taken",
     "type": "achievement",
-    "name": "живучийIII",
+    "name": "ЖивучийIII",
 	"hidden_by": [ "achievement_damage_200_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 400} ]
   },
     {
     "id": "achievement_damage_800_taken",
     "type": "achievement",
-    "name": "стойкийI",
+    "name": "СтойкийI",
 	"hidden_by": [ "achievement_damage_400_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 800} ]
   },
     {
     "id": "achievement_damage_1000_taken",
     "type": "achievement",
-    "name": "стойкийII",
+    "name": "СтойкийII",
 	"hidden_by": [ "achievement_damage_800_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 1000} ]
   },
       {
     "id": "achievement_damage_2000_taken",
     "type": "achievement",
-    "name": "стойкийIII",
+    "name": "СтойкийIII",
 	"hidden_by": [ "achievement_damage_1000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 2000} ]
   },
       {
     "id": "achievement_damage_4000_taken",
     "type": "achievement",
-    "name": "жизнестойкийI",
+    "name": "ЖизнестойкийI",
 	"hidden_by": [ "achievement_damage_2000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 4000} ]
   },
       {
     "id": "achievement_damage_8000_taken",
     "type": "achievement",
-    "name": "жизнестойкийII",
+    "name": "ЖизнестойкийII",
 	"hidden_by": [ "achievement_damage_4000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 8000} ]
   },
       {
     "id": "achievement_damage_10000_taken",
     "type": "achievement",
-    "name": "жизнестойкийIII",
+    "name": "ЖизнестойкийIII",
 	"hidden_by": [ "achievement_damage_8000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 10000} ]
   },
       {
     "id": "achievement_damage_20000_taken",
     "type": "achievement",
-    "name": "целеустремлённыйI",
+    "name": "ЦелеустремлённыйI",
 	"hidden_by": [ "achievement_damage_10000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 20000} ]
   },
       {
     "id": "achievement_damage_40000_taken",
     "type": "achievement",
-    "name": "целеустремлённыйII",
+    "name": "ЦелеустремлённыйII",
 	"hidden_by": [ "achievement_damage_20000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 40000} ]
   },
       {
     "id": "achievement_damage_80000_taken",
     "type": "achievement",
-    "name": "целеустремлённыйIII",
+    "name": "ЦелеустремлённыйIII",
 	"hidden_by": [ "achievement_damage_40000_taken" ],
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 80000} ]
   },
@@ -782,7 +775,7 @@
   {
     "id": "achievement_kill_nether10",
     "type": "achievement",
-    "name": "помощник морфея",
+    "name": "Помощник морфея",
 	"hidden_by": [ "achievement_kill_nether" ],
     "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
@@ -803,7 +796,7 @@
   {
     "id": "achievement_kill_fungus10",
     "type": "achievement",
-    "name": "чёртовы грибы",
+    "name": "Чёртовы грибы",
 	"hidden_by": [ "achievement_kill_fungus" ],
     "requirements": [ { "event_statistic": "num_avatar_fungus_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
@@ -831,7 +824,7 @@
   {
     "id": "achievement_kill_insect100",
     "type": "achievement",
-    "name": "нужен дихлофос",
+    "name": "Нужен дихлофос",
 	"hidden_by": [ "achievement_kill_insect10" ],
     "requirements": [ { "event_statistic": "num_avatar_insect_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
   },
@@ -845,7 +838,7 @@
   {
     "id": "achievement_kill_robot10",
     "type": "achievement",
-    "name": "Просто металлалом",
+    "name": "Просто металлолом",
 	"hidden_by": [ "achievement_kill_robot" ],
     "requirements": [ { "event_statistic": "num_avatar_robot_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
@@ -930,6 +923,7 @@
           "id": "achievement_kill_1000000000_monsters",
     "type": "achievement",
     "name": { "str": "БОГ ВОЙНЫ" },
+	"description": "Простите меня, но вы ебанутый",
     "hidden_by": [ "achievement_kill_100000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 1000000000 } ]
   },
@@ -1018,7 +1012,7 @@
     "hidden_by": [ "achievement_exhume_50_grave" ]
   },
     {
-    "id": "achievement_exhume_100_grave",
+    "id": "achievement_exhume_1000_grave",
     "type": "achievement",
     "name": "вор трупов",
     "description": "что же вам так нравится в этом деле?",
