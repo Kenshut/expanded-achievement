@@ -7,18 +7,130 @@
 	"hidden_by": [ "achievement_kill_zombie" ]
   },
   {
+    "id": "achievement_kill_zombie20",
+    "type": "achievement",
+    "name": "Две десятки есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 20} ],
+	"hidden_by": [ "achievement_kill_zombie10" ]
+  },
+  {
+    "id": "achievement_kill_zombie30",
+    "type": "achievement",
+    "name": "Три десятки есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 30} ],
+	"hidden_by": [ "achievement_kill_zombie20" ]
+  },
+  {
+    "id": "achievement_kill_zombie40",
+    "type": "achievement",
+    "name": "Четыре десятки есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 40} ],
+	"hidden_by": [ "achievement_kill_zombie30" ]
+  },
+  {
+    "id": "achievement_kill_zombie50",
+    "type": "achievement",
+    "name": "Пять десяток есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 50} ],
+	"hidden_by": [ "achievement_kill_zombie40" ]
+  },
+  {
+    "id": "achievement_kill_zombie60",
+    "type": "achievement",
+    "name": "Шесть десяток есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 60} ],
+	"hidden_by": [ "achievement_kill_zombie50" ]
+  },
+  {
+    "id": "achievement_kill_zombie70",
+    "type": "achievement",
+    "name": "Семь десяток есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 70} ],
+	"hidden_by": [ "achievement_kill_zombie60" ]
+  },
+  {
+    "id": "achievement_kill_zombie80",
+    "type": "achievement",
+    "name": "Восемь десяток есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 80} ],
+	"hidden_by": [ "achievement_kill_zombie70" ]
+  },
+  {
+    "id": "achievement_kill_zombie90",
+    "type": "achievement",
+    "name": "Девять десяток есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 90} ],
+	"hidden_by": [ "achievement_kill_zombie80" ]
+  },
+  {
     "id": "achievement_kill_zombie100",
     "type": "achievement",
     "name": "Сотня есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 100} ],
-	"hidden_by": [ "achievement_kill_zombie10" ]
+	"hidden_by": [ "achievement_kill_zombie90" ]
+  },
+  {
+    "id": "achievement_kill_zombie200",
+    "type": "achievement",
+    "name": "две сотни есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 200} ],
+	"hidden_by": [ "achievement_kill_zombie100" ]
+  },
+  {
+    "id": "achievement_kill_zombie300",
+    "type": "achievement",
+    "name": "три сотни есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 300} ],
+	"hidden_by": [ "achievement_kill_zombie200" ]
+  },
+  {
+    "id": "achievement_kill_zombie400",
+    "type": "achievement",
+    "name": "четыри сотни есть, осталось 7 миллиардов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 400} ],
+	"hidden_by": [ "achievement_kill_zombie300" ]
+  },
+  {
+    "id": "achievement_kill_zombie500",
+    "type": "achievement",
+    "name": "Неплохо разошелся",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 500} ],
+	"hidden_by": [ "achievement_kill_zombie400" ]
+  },
+  {
+    "id": "achievement_kill_zombie600",
+    "type": "achievement",
+    "name": "Убивать зэдов",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 600} ],
+	"hidden_by": [ "achievement_kill_zombie500" ]
+  },
+  {
+    "id": "achievement_kill_zombie700",
+    "type": "achievement",
+    "name": "Убить больше зедов!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 700} ],
+	"hidden_by": [ "achievement_kill_zombie600" ]
+  },
+  {
+    "id": "achievement_kill_zombie800",
+    "type": "achievement",
+    "name": "Убить ещё больше зедов!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 800} ],
+	"hidden_by": [ "achievement_kill_zombie700" ]
+  },
+  {
+    "id": "achievement_kill_zombie900",
+    "type": "achievement",
+    "name": "Убить ещё немного больше зедов!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 900} ],
+	"hidden_by": [ "achievement_kill_zombie800" ]
   },
   {
     "id": "achievement_kill_zombie1000",
     "type": "achievement",
     "name": "Тысяча есть, осталось 7 миллиардов",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 1000} ],
-	"hidden_by": [ "achievement_kill_zombie100" ]
+	"hidden_by": [ "achievement_kill_zombie900" ]
   },
   {
     "id": "achievement_kill_zombie2000",
@@ -28,46 +140,200 @@
 	"hidden_by": [ "achievement_kill_zombie1000" ]
   },
   {
+    "id": "achievement_kill_zombie3000",
+    "type": "achievement",
+    "name": "Делаем планету чють чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 3000} ],
+	"hidden_by": [ "achievement_kill_zombie2000" ]
+  },
+  {
+    "id": "achievement_kill_zombie4000",
+    "type": "achievement",
+    "name": "Делаем планету немного чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 4000} ],
+	"hidden_by": [ "achievement_kill_zombie3000" ]
+  },
+  {
     "id": "achievement_kill_zombie5000",
     "type": "achievement",
     "name": "Население среднего предприятия",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 5000} ],
-	"hidden_by": [ "achievement_kill_zombie2000" ]
+	"hidden_by": [ "achievement_kill_zombie4000" ]
+  },
+  {
+    "id": "achievement_kill_zombie6000",
+    "type": "achievement",
+    "name": "Делаем планету чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 6000} ],
+	"hidden_by": [ "achievement_kill_zombie5000" ]
+  },
+  {
+    "id": "achievement_kill_zombie7000",
+    "type": "achievement",
+    "name": "Делаем планету ещё чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 7000} ],
+	"hidden_by": [ "achievement_kill_zombie6000" ]
+  },
+  {
+    "id": "achievement_kill_zombie8000",
+    "type": "achievement",
+    "name": "Делаем планету ещё чуть чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 8000} ],
+	"hidden_by": [ "achievement_kill_zombie7000" ]
+  },
+  {
+    "id": "achievement_kill_zombie9000",
+    "type": "achievement",
+    "name": "Делаем планету ещё немного чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 9000} ],
+	"hidden_by": [ "achievement_kill_zombie8000" ]
   },
   {
     "id": "achievement_kill_zombie10000",
     "type": "achievement",
     "name": "Вы даже не видили столько лиц",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 10000} ],
-	"hidden_by": [ "achievement_kill_zombie5000" ]
+	"hidden_by": [ "achievement_kill_zombie9000" ]
+  },
+  {
+    "id": "achievement_kill_zombie11000",
+    "type": "achievement",
+    "name": "Вами движет решимость?",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 11000} ],
+	"hidden_by": [ "achievement_kill_zombie10000" ]
+  },
+  {
+    "id": "achievement_kill_zombie12000",
+    "type": "achievement",
+    "name": "Или что-то другое?",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 12000} ],
+	"hidden_by": [ "achievement_kill_zombie11000" ]
+  },
+  {
+    "id": "achievement_kill_zombie13000",
+    "type": "achievement",
+    "name": "Это наверно не главное",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 13000} ],
+	"hidden_by": [ "achievement_kill_zombie12000" ]
+  },
+  {
+    "id": "achievement_kill_zombie14000",
+    "type": "achievement",
+    "name": "Ведь вы делаете мир чище",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 14000} ],
+	"hidden_by": [ "achievement_kill_zombie13000" ]
   },
   {
     "id": "achievement_kill_zombie15000",
     "type": "achievement",
     "name": "Это еще не все, не теряйте решимости",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 15000} ],
-	"hidden_by": [ "achievement_kill_zombie10000" ]
+	"hidden_by": [ "achievement_kill_zombie14000" ]
+  },
+  {
+    "id": "achievement_kill_zombie16000",
+    "type": "achievement",
+    "name": "Надо убить еще слишком многих",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 16000} ],
+	"hidden_by": [ "achievement_kill_zombie15000" ]
+  },
+  {
+    "id": "achievement_kill_zombie17000",
+    "type": "achievement",
+    "name": "Надо убивать больше",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 17000} ],
+	"hidden_by": [ "achievement_kill_zombie16000" ]
+  },
+  {
+    "id": "achievement_kill_zombie18000",
+    "type": "achievement",
+    "name": "Надо убить еще",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 18000} ],
+	"hidden_by": [ "achievement_kill_zombie17000" ]
+  },
+  {
+    "id": "achievement_kill_zombie19000",
+    "type": "achievement",
+    "name": "Надо убить еще многих",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 19000} ],
+	"hidden_by": [ "achievement_kill_zombie18000" ]
   },
   {
     "id": "achievement_kill_zombie20000",
     "type": "achievement",
     "name": "Вам предстоит еще многих убить, не теряйте решимости",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 20000} ],
-	"hidden_by": [ "achievement_kill_zombie15000" ]
+	"hidden_by": [ "achievement_kill_zombie19000" ]
+  },
+  {
+    "id": "achievement_kill_zombie21000",
+    "type": "achievement",
+    "name": "Так много полегло",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 21000} ],
+	"hidden_by": [ "achievement_kill_zombie20000" ]
+  },
+  {
+    "id": "achievement_kill_zombie22000",
+    "type": "achievement",
+    "name": "Вы все еще должны убивать больше",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 22000} ],
+	"hidden_by": [ "achievement_kill_zombie21000" ]
+  },
+  {
+    "id": "achievement_kill_zombie23000",
+    "type": "achievement",
+    "name": "Вы довольно не плохо уничтожаете их",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 23000} ],
+	"hidden_by": [ "achievement_kill_zombie22000" ]
+  },
+  {
+    "id": "achievement_kill_zombie24000",
+    "type": "achievement",
+    "name": "Вы уже убили многих, но это еще не все",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 24000} ],
+	"hidden_by": [ "achievement_kill_zombie23000" ]
   },
   {
     "id": "achievement_kill_zombie25000",
     "type": "achievement",
-    "name": "Вы уже убили многих, но это еще не все",
+    "name": "Вы выполнили одну четвертую нормы",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 25000} ],
-	"hidden_by": [ "achievement_kill_zombie20000" ]
+	"hidden_by": [ "achievement_kill_zombie24000" ]
+  },
+  {
+    "id": "achievement_kill_zombie26000",
+    "type": "achievement",
+    "name": "Вы довольно успешно справляетесь",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 26000} ],
+	"hidden_by": [ "achievement_kill_zombie25000" ]
+  },
+  {
+    "id": "achievement_kill_zombie27000",
+    "type": "achievement",
+    "name": "Вы уже не малое число убили",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 27000} ],
+	"hidden_by": [ "achievement_kill_zombie26000" ]
+  },
+  {
+    "id": "achievement_kill_zombie28000",
+    "type": "achievement",
+    "name": "Вы уже немного сократили популяцию слизи, совсем немного",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 28000} ],
+	"hidden_by": [ "achievement_kill_zombie27000" ]
+  },
+  {
+    "id": "achievement_kill_zombie29000",
+    "type": "achievement",
+    "name": "Продолжайте истреблять их",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 29000} ],
+	"hidden_by": [ "achievement_kill_zombie28000" ]
   },
   {
     "id": "achievement_kill_zombie30000",
     "type": "achievement",
     "name": "Храните решимость",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 30000} ],
-	"hidden_by": [ "achievement_kill_zombie25000" ]
+	"hidden_by": [ "achievement_kill_zombie29000" ]
   },
   {
     "id": "achievement_kill_zombie35000",
@@ -84,11 +350,11 @@
 	"hidden_by": [ "achievement_kill_zombie35000" ]
   },
   {
-    "id": "achievement_kill_zombie40000",
+    "id": "achievement_kill_zombie45000",
     "type": "achievement",
-    "name": "Население квартала",
-    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 40000} ],
-	"hidden_by": [ "achievement_kill_zombie35000" ]
+    "name": "вы же не намерены сдаваться?",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 45000} ],
+	"hidden_by": [ "achievement_kill_zombie40000" ]
   },
   {
     "id": "achievement_kill_zombie50000",
@@ -326,18 +592,39 @@
     "name": "смертоубийство",
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 1,  "visible": "when_achievement_completed" } ]
   },
+  {
+    "id": "achievement_character_5_npc",
+    "type": "achievement",
+    "name": "Маньяк",
+	"hidden_by": [ "achievement_character_npc" ],
+    "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 5,  "visible": "when_achievement_completed" } ]
+  },
     {
     "id": "achievement_character_10_npc",
     "type": "achievement",
-    "name": "Серийный убийца",
-	"hidden_by": [ "achievement_character_npc" ],
+    "name": "Убийца",
+	"hidden_by": [ "achievement_character_5_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 10} ]
   }, 
+  {
+    "id": "achievement_character_20_npc",
+    "type": "achievement",
+    "name": "Они все во лишь скот",
+	"hidden_by": [ "achievement_character_10_npc" ],
+    "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 20} ]
+  }, 
+  {
+    "id": "achievement_character_50_npc",
+    "type": "achievement",
+    "name": "Серийный убийца",
+	"hidden_by": [ "achievement_character_20_npc" ],
+    "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 50} ]
+  },
     {
     "id": "achievement_character_100_npc",
     "type": "achievement",
     "name": "Вы сходите с ума?",
-	"hidden_by": [ "achievement_character_10_npc" ],
+	"hidden_by": [ "achievement_character_50_npc" ],
     "requirements": [ { "event_statistic": "num_avatar_character_kills", "is": ">=", "target": 100} ]
   }, 
     {
