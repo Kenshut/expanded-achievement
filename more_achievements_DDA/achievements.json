@@ -781,8 +781,21 @@
     "id": "achievement_install_2_cbm",
     "type": "achievement",
     "name": "Я ведь стал лучше?",
-    "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ],
+    "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 2, "visible": "when_achievement_completed" } ],
 	"hidden_by": [ "achievement_install_1_cbm" ]
+  },
+  {
+    "id": "achievement_installs_faulty_cbm",
+    "type": "achievement",
+    "name": "Оно ведь помогает?",
+    "requirements": [ { "event_statistic": "num_installs_faulty_cbm", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_installs_faulty_5_cbm",
+    "type": "achievement",
+    "name": "Меня это не остановит!",
+    "requirements": [ { "event_statistic": "num_installs_faulty_cbm", "is": ">=", "target": 5, "visible": "when_achievement_completed" } ],
+	"hidden_by": [ "achievement_installs_faulty_cbm" ]
   },
   {
     "id": "achievement_install_5_cbm",
