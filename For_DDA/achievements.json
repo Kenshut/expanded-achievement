@@ -715,15 +715,15 @@
     "hidden_by": [ "achievement_cut_5000_trees" ]
   },
   {
-    "id": "achievement_exhume_50_graves",
+    "id": "achievement_exhume_50_grave",
     "type": "achievement",
     "name": "Эксгуматорг",
     "description": "Что же на этот раз я найду?",
     "requirements": [ { "event_statistic": "num_exhumed_graves", "is": ">=", "target": 50 } ],
-    "hidden_by": [ "achievement_exhume_10_grave" ]
+    "hidden_by": [ "achievement_exhume_10_graves" ]
   },
     {
-    "id": "achievement_exhume_100_graves",
+    "id": "achievement_exhume_100_grave",
     "type": "achievement",
     "name": "расхетитель",
     "description": "Сегодня покапаемся.",
@@ -731,7 +731,7 @@
     "hidden_by": [ "achievement_exhume_50_grave" ]
   },
     {
-    "id": "achievement_exhume_100_graves",
+    "id": "achievement_exhume_100_grave",
     "type": "achievement",
     "name": "вор трупов",
     "description": "что же вам так нравится в этом деле?",
