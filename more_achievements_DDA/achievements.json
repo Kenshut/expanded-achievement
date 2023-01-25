@@ -927,6 +927,14 @@
     "hidden_by": [ "achievement_kill_100000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 1000000000 } ]
   },
+	{
+          "id": "achievement_kill_2000000000_monsters",
+    "type": "achievement",
+    "name": { "str": "ГЕНОЦИД" },
+	"description": "Простите меня, но вы ебанутый, вам пора в больницу",
+    "hidden_by": [ "achievement_kill_100000000_monsters" ],
+    "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 2000000000 } ]
+  },
   {
     "id": "achievement_survive_455_days",
     "type": "achievement",
