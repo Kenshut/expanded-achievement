@@ -1,12 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "ks_mod_more_ach",
-    "name": "Больше достижений",
+    "id": "Больше_достижений",
+    "name": "expanded achievement",
     "authors": [ "Kenshut" ],
-    "description": "больше достижений для большей стимуляции",
+    "description": "expanded achievement — Do you need more achievements???",
     "category": "content",
-    "dependencies": [ "dda" ],
-    "path": ""
+    "dependencies": [ "dda" ]
   }
 ]
