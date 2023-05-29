@@ -267,62 +267,61 @@
     "id": "achievement_damage_100000_taken",
     "type": "achievement",
     "name": "Как думаешь, это все еще твоё тело?",
-	"description": "",
     "requirements": [ { "event_statistic": "avatar_damage_taken", "is": ">=", "target": 100000,  "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_cyborg10",
     "type": "achievement",
-    "name": "Теперь то они люди?",
+    "name": "Убить 10 киборгов",
 	"hidden_by": [ "achievement_kill_cyborg" ],
-	"description": "",
+	"description": "Теперь то они люди?",
     "requirements": [ { "event_statistic": "num_avatar_cyborg_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
     {
     "id": "achievement_kill_cyborg100",
     "type": "achievement",
-    "name": "А ведь из можно было спасти",
-	"description": "",
+    "name": "Убить 100 киборгов",
+	"description": "А ведь из можно было спасти",
 	"hidden_by": [ "achievement_kill_cyborg10" ],
     "requirements": [ { "event_statistic": "num_avatar_cyborg_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
   },
       {
     "id": "achievement_kill_cyborg1000",
     "type": "achievement",
-    "name": "Наверно надо было дать им шанс",
-	"description": "",
+    "name": "Убить 1000 киборгов",
+	"description": "Наверно надо было дать им шанс",
 	"hidden_by": [ "achievement_kill_cyborg100" ],
     "requirements": [ { "event_statistic": "num_avatar_cyborg_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_nether10",
     "type": "achievement",
-    "name": "Помощник морфея",
-	"description": "",
+    "name": "Убить 10 кошмаров",
+	"description": "Помощник морфея",
 	"hidden_by": [ "achievement_kill_nether" ],
     "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_nether100",
     "type": "achievement",
-    "name": "Заместитель морфея",
-	"description": "",
+    "name": "Убить 1000 кошмаров",
+	"description": "Заместитель морфея",
 	"hidden_by": [ "achievement_kill_nether10" ],
-    "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
+    "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_nether1000",
     "type": "achievement",
-    "name": "Правая рука морфея",
-	"description": "",
+    "name": "Убить 10000 кошмаров",
+	"description": "Правая рука морфея",
 	"hidden_by": [ "achievement_kill_nether100" ],
-    "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
+    "requirements": [ { "event_statistic": "num_avatar_nether_kills", "is": ">=", "target": 10000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_fungus10",
     "type": "achievement",
-    "name": "Чёртовы грибы",
-	"description": "",
+    "name": "Убить 10 грибов",
+	"description": "Чёртовы грибы",
 	"hidden_by": [ "achievement_kill_fungus" ],
     "requirements": [ { "event_statistic": "num_avatar_fungus_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
@@ -330,7 +329,6 @@
     "id": "achievement_kill_fungus100",
     "type": "achievement",
     "name": "Им никогда не сделать из меня фунгалоида!",
-	"description": "",
 	"hidden_by": [ "achievement_kill_fungus10" ],
     "requirements": [ { "event_statistic": "num_avatar_fungus_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
   },
@@ -338,7 +336,6 @@
     "id": "achievement_kill_fungus1000",
     "type": "achievement",
     "name": "СОПРОТИВЛЕНИЕ ПРОТИВ ГРИБНИЦЫ",
-	"description": "",
 	"hidden_by": [ "achievement_kill_fungus100" ],
     "requirements": [ { "event_statistic": "num_avatar_fungus_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
   },
