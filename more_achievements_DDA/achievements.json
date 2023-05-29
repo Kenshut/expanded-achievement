@@ -266,106 +266,123 @@
   {
     "id": "achievement_kill_insect10",
     "type": "achievement",
-    "name": "ТАРАКАНЫ!",
+    "name": "Убить 10 жуков",
+	"description": "ТАРАКАНЫ!",
 	"hidden_by": [ "achievement_kill_insect" ],
     "requirements": [ { "event_statistic": "num_avatar_insect_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_insect100",
     "type": "achievement",
-    "name": "Нужен дихлофос",
+    "name": "Убить 100 жуков",
+	"description": "Нужен дихлофос",
 	"hidden_by": [ "achievement_kill_insect10" ],
     "requirements": [ { "event_statistic": "num_avatar_insect_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_insect1000",
     "type": "achievement",
-    "name": "А ведь они быстро размножаются",
+    "name": "Убить 1000 жуков",
+	"description": "А ведь они быстро размножаются",
 	"hidden_by": [ "achievement_kill_insect100" ],
     "requirements": [ { "event_statistic": "num_avatar_insect_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_robot10",
     "type": "achievement",
-    "name": "Просто металлолом",
+    "name": "Убить 10 роботов",
+	"description": "Просто металлолом",
 	"hidden_by": [ "achievement_kill_robot" ],
     "requirements": [ { "event_statistic": "num_avatar_robot_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_robot100",
     "type": "achievement",
-    "name": "Из них уже можно построить лачугу",
+    "name": "Убить 100 роботов",
+	"description": "Из них уже можно построить лачугу",
 	"hidden_by": [ "achievement_kill_robot10" ],
     "requirements": [ { "event_statistic": "num_avatar_robot_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_robot1000",
     "type": "achievement",
-    "name": "На переплавку",
+    "name": "Убить 1000 роботов",
+	"description": "На переплавку",
 	"hidden_by": [ "achievement_kill_robot100" ],
     "requirements": [ { "event_statistic": "num_avatar_robot_kills", "is": ">=", "target": 1000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_robot10000",
     "type": "achievement",
-    "name": "И на это шли наши налоги?",
+    "name": "Убить 1000 роботов",
+	"description": "И на это шли наши налоги?",
 	"hidden_by": [ "achievement_kill_robot1000" ],
     "requirements": [ { "event_statistic": "num_avatar_robot_kills", "is": ">=", "target": 10000, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_kill_200000_monsters",
     "type": "achievement",
-    "name": { "str": "Любитель нести смерть" },
+    "name": { "str": "Убить 200000 существ" },
+	"description": "Любитель нести смерть",
     "hidden_by": [ "achievement_kill_100000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 200000 } ]
   },
     {
     "id": "achievement_kill_400000_monsters",
     "type": "achievement",
-    "name": { "str": "Их жизнь не имела смысла" },
+    "name": { "str": "Убить 400000 существ" },
+	"description": "Их жизнь не имела смысла",
     "hidden_by": [ "achievement_kill_200000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 400000 } ]
   },
     {
     "id": "achievement_kill_800000_monsters",
     "type": "achievement",
-    "name": { "str": "Ты сравним со второй мировой войной" },
+    "name": { "str": "Убить 800000 существ" },
     "hidden_by": [ "achievement_kill_400000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 800000 } ]
   },  
   {
     "id": "achievement_kill_1000000_monsters",
     "type": "achievement",
-    "name": { "str": "Мини ядерная бомба" },
+    "name": { "str": "Убить 1000000 существ" },
     "hidden_by": [ "achievement_kill_800000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 1000000 } ]
   },
   {
       "id": "achievement_kill_5000000_monsters",
     "type": "achievement",
-    "name": { "str": "Маленькая ядерная бомба" },
+    "name": { "str": "Убить 5000000 существ" },
     "hidden_by": [ "achievement_kill_1000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 5000000 } ]
   },
   {
       "id": "achievement_kill_10000000_monsters",
     "type": "achievement",
-    "name": { "str": "Средняя ядерная бомба" },
+    "name": { "str": "Убить 10000000 существ" },
     "hidden_by": [ "achievement_kill_5000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 10000000 } ]
   },
   {
       "id": "achievement_kill_50000000_monsters",
     "type": "achievement",
-    "name": { "str": "Большая ядерная бомба" },
+    "name": { "str": "Убить 50000000 существ" },
     "hidden_by": [ "achievement_kill_10000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 50000000 } ]
   },
   {
+      "id": "achievement_kill_71170000_monsters",
+    "type": "achievement",
+    "name": { "str": "Убить 71170000 существ" },
+	"description": "Ты сравним со второй мировой войной",
+    "hidden_by": [ "achievement_kill_50000000_monsters" ],
+    "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 71170000 } ]
+  },
+  {
         "id": "achievement_kill_100000000_monsters",
     "type": "achievement",
-    "name": { "str": "ЦАРЬ БОМБА" },
-    "hidden_by": [ "achievement_kill_50000000_monsters" ],
+    "name": { "str": "Убить 100000000 существ" },
+    "hidden_by": [ "achievement_kill_71170000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 100000000 } ]
   },
   {
@@ -380,7 +397,7 @@
           "id": "achievement_kill_2000000000_monsters",
     "type": "achievement",
     "name": { "str": "ГЕНОЦИД" },
-	"description": "Простите меня, но вы ебанутый, вам пора в больницу",
+	"description": "Простите меня, но окончательно сошли с ума, вам пора в больницу",
     "hidden_by": [ "achievement_kill_100000000_monsters" ],
     "requirements": [ { "event_statistic": "num_avatar_monster_kills", "is": ">=", "target": 2000000000 } ]
   },

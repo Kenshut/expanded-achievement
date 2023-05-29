@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "Больше_достижений",
-    "name": "expanded achievement",
+    "name": "<color_blue>expanded achievement</color>",
     "authors": [ "Kenshut" ],
     "description": "expanded achievement — Do you need more achievements???",
     "category": "content",
