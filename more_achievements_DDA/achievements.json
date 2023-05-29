@@ -6,6 +6,85 @@
 	"description": "Вау! Ты попал в голову.",
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 1} ]
   },
+  {
+    "id": "achievement_num_headshots",
+    "type": "achievement",
+    "name": "Попасть в голову 10000 раз",
+	"description": "Черепа взрывают — осколки летят",
+    "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 10000} ]
+  },
+  {
+    "id": "achievement_kill_zombie_100",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie" ],
+    "name": "Убить 100 зомби",
+	"description": "Очистил 5-этажный дом",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 100 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_1000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_100" ],
+    "name": "Убить 1000 зомби",
+	"description": "Очистил посёлок",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 1000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_10000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_1000" ],
+    "name": "Убить 10000 зомби",
+	"description": "Сектор чист!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 10000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_100000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_10000" ],
+    "name": "Убить 100000 зомби",
+	"description": "Посёлок городского типа очищен!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 100000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_300000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_100000" ],
+    "name": "Убить 300000 зомби",
+	"description": "Производственный город очищен!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 300000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_1000000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_300000" ],
+    "name": "Убить 1000000 зомби",
+	"description": "Крупный город очищен!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 1000000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_10000000",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_1000000" ],
+    "name": "Убить 10000000 зомби",
+	"description": "Мегаполис очищен!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 10000000 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_147182123",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_10000000" ],
+    "name": "Убить 147182123 зомби",
+	"description": "Одно крупное государство было уничтожено вами!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 147182123 } ]
+  },
+  {
+    "id": "achievement_kill_zombie_147182123",
+    "type": "achievement",
+	"hidden_by": [ "achievement_kill_zombie_1411750000" ],
+    "name": "Убить 1411750000 зомби",
+	"description": "Вы уничтожили Китай!",
+    "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 1411750000 } ]
+  },
     {
     "id": "achievement_character_npc",
     "type": "achievement",
@@ -567,5 +646,12 @@
     "description": "By most mechanical and dirty hand.  I shall have such revenges on you… both.  The things I will do, what they are, yet I know not.  But they will be the terrors of the earth.",
     "requirements": [ { "event_statistic": "num_installs_cbm", "is": ">=", "target": 10 } ],
     "hidden_by": [ "achievement_install_5_cbm" ]
+  },
+  {
+    "id": "achievement_walk_100_km",
+    "type": "achievement",
+    "name": "Из одной деревни в другую",
+    "description": "Пройди верхом 100 километров.",
+    "requirements": [ { "event_statistic": "num_moves_mounted", "is": ">=", "target": 100000 } ]
   }
 ]
