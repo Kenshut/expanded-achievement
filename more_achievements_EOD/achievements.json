@@ -7,7 +7,7 @@
     "requirements": [ { "event_statistic": "avatar_num_headshots", "is": ">=", "target": 1} ]
   },
   {
-    "id": "achievement_num_headshots",
+    "id": "achievement_num_headshots1",
     "type": "achievement",
     "name": "Попасть в голову 10000 раз",
 	"description": "Черепа взрывают — осколки летят",
@@ -78,9 +78,9 @@
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 147182123 } ]
   },
   {
-    "id": "achievement_kill_zombie_147182123",
+    "id": "achievement_kill_zombie_1411750000",
     "type": "achievement",
-	"hidden_by": [ "achievement_kill_zombie_1411750000" ],
+	"hidden_by": [ "achievement_kill_zombie_147182123" ],
     "name": "Убить 1411750000 зомби",
 	"description": "Вы уничтожили Китай!",
     "requirements": [ { "event_statistic": "num_avatar_zombie_kills", "is": ">=", "target": 1411750000 } ]
